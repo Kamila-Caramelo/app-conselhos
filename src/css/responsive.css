@@ -1,0 +1,20 @@
+@media(max-width: 475px){
+
+    .card{
+        padding-inline: 50px;
+        width: 300px;
+        font-size: 10px;
+        padding: 25px;
+    }
+
+    .logo-advice p{
+        color: var(--advice-dice-color);
+        font-size: 15px;
+    }
+
+    .divider{
+        margin-top: 30px;    
+    }
+
+
+}

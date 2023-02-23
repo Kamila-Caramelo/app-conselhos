@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;
+    font-size: 12px;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: var(--advice-card-color);
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+.logo-advice p{
+    color: var(--advice-dice-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.advice{
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    padding: 25px;
+    
+}
+
+.divider{
+    margin-top: 50px;    
+}
+
+.button-app{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;  
+    background-color: var(--advice-dice-color);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.card .button-app{
+    position: absolute;
+    margin: auto;
+    top: 300px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
